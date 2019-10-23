@@ -10,11 +10,11 @@ int c,d,e,f;
 FILE *fp=fopen("result.txt","w");
 srand(time(NULL));
 do{
-printf("\nÇëÊäÈëÌâÄ¿ÊýÁ¿  -1ÍË³ö³ÌÐò:");
+printf("\nè¯·è¾“å…¥é¢˜ç›®æ•°é‡  -1é€€å‡ºç¨‹åº:");
 scanf("%d",&N);
-printf("\nÇëÊäÈëÔËËã·¶Î§  -1ÍË³ö³ÌÐò:");
+printf("\nè¯·è¾“å…¥è¿ç®—èŒƒå›´  -1é€€å‡ºç¨‹åº:");
 scanf("%d",&f);
-printf("\nÇëÊäÈëÊý×ÖÀàÐÍ(1.ÕýÊýÔËËã 2.¸ºÊýÔËËã) -1ÍË³ö³ÌÐò: ");
+printf("\nè¯·è¾“å…¥æ•°å­—ç±»åž‹(1.æ­£æ•°è¿ç®— 2.è´Ÿæ•°è¿ç®—) -1é€€å‡ºç¨‹åº: ");
 scanf("%d",&n);
 
 switch(n)
@@ -22,7 +22,7 @@ switch(n)
 case 1:
 {
 FILE *fp=fopen("result.txt","w");
-printf("\nÇëÑ¡ÔñÊÇ·ñ°üº¬³Ë³ý(1.°üº¬ 2.²»°üº¬) -1ÍË³ö³ÌÐò: ");
+printf("\nè¯·é€‰æ‹©æ˜¯å¦åŒ…å«ä¹˜é™¤(1.åŒ…å« 2.ä¸åŒ…å«) -1é€€å‡ºç¨‹åº: ");
 scanf("%d",&e);
 
 for(i=0;i<N;i++)
@@ -69,7 +69,7 @@ break;
 case 2:
 {
 FILE *fp=fopen("result.txt","w");
-printf("\nÇëÑ¡ÔñÊÇ·ñ°üº¬³Ë³ý(1.°üº¬ 2.²»°üº¬) -1ÍË³ö³ÌÐò: ");
+printf("\nè¯·é€‰æ‹©æ˜¯å¦åŒ…å«ä¹˜é™¤(1.åŒ…å« 2.ä¸åŒ…å«) -1é€€å‡ºç¨‹åº: ");
 scanf("%d",&e);
 for(i=0;i<N;i++)
 {
